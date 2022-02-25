@@ -6,7 +6,7 @@ This write-up will discuss the concept of structured error handling as well as p
 ## 2	Pickling
 Python has a built-in module called pickle that is used to serialize and de-serialize object data. “What pickle does is that it ‘serializes’ the object first before writing it to file. Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream contains all the information necessary to reconstruct the object in another python script.” (Geeks for Geeks, https://www.geeksforgeeks.org/understanding-python-pickling-example/, Feb 2022) (External Site). Pickling can also abstract the data you want to store on the disk and reduce the size of the file to save space. The work log is stored on the disk as a binary file named WorkLog.dat. See Figure 1. The work log is obscured in binary and needs to be unpickled and printed to the console to be reable.
 
-![Figure 1](/)
+![Figure 1](https://github.com/ryanlupinski/IntroToProg-Python-Mod07/blob/main/doc/Screen%20Shot%202022-02-25%20at%208.21.21%20AM.png?raw=true)
 Figure 1. WorkLog.dat binary file, and plain text unpickled entries in Pycharm
 
 Exploring the first section of code, the functionality the program needs such as time stamps and serial/de-serialization must be imported from the corresponding modules using the import command. See Listing 1.
