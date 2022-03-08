@@ -24,6 +24,7 @@ lstWorkLog = []  # initialize list of work logs
 ```
 Listing 1 Importing modules and initializing variables
 
+
 The module datetime is imported for the datetime library. Now that we have pickling available, the binary data in the .dat file can be deserialized and pulled into the console. 
 
 ### 2.1	Reading and saving data with Pickle
